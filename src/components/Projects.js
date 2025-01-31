@@ -59,7 +59,7 @@ const Projects = () => {
     const hospitalTimer = setInterval(() => {
       setCurrentHospitalIndex((prev) => (prev + 1) % hospitalImages.length);
     }, 4000);
-
+//this is for ddu planner 
     const plannerTimer = setInterval(() => {
       setCurrentPlannerIndex((prev) => (prev + 1) % dduPlannerImages.length);
     }, 5000);
